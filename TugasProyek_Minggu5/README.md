@@ -30,13 +30,13 @@ Use the run button in your IDE's editor gutter, or run tests using Gradle tasks:
 
 ## Modul 5: Navigasi Antar Layar
 
-### Layar yang Dikerjakan:
+### Fitur dan Layar yang Dikerjakan:
 
 - **Layar Detail Peminjaman** (`PeminjamanDetailScreen.kt`):
-  - Mengambil data peminjaman berdasarkan ID melalui `DetailViewModel`.
-  - Menggunakan UI State (`DetailUiState`: `Memuat`, `Berhasil`, `Gagal`).
-  - Menampilkan informasi lengkap peminjaman (nama peminjam, NIM, tanggal, ruangan, kapasitas, tipe, fasilitas, status, dan catatan).
-  - Dilengkapi tombol kembali di `TopAppBar`.
-  - Menggunakan helper data source `PeminjamanDataPenyimpanan.kt`.
+  - Mengambil data peminjaman secara dinamis berdasarkan ID menggunakan `DetailViewModel`.
+  - Menerapkan manajemen *UI State* yang responsif (`DetailUiState`: Memuat, Berhasil, Gagal).
+  - Menampilkan informasi lengkap peminjaman mencakup nama peminjam, NIM, tanggal, ruangan, kapasitas, tipe, fasilitas, status, dan catatan khusus.
+  - Dilengkapi tombol navigasi kembali pada komponen `TopAppBar`.
+  - Memanfaatkan *helper data source* dari `PeminjamanDataPenyimpanan.kt`.
 
 Learn more about [Kotlin Multiplatform](https://www.jetbrains.com/help/kotlin-multiplatform-dev/get-started.html)…
